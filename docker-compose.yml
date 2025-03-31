@@ -98,5 +98,7 @@ services:
       - 1211:1211/udp   # SonicWall
       - 1212:1212/tcp   # UniFi
       - 1212:1212/udp   # UniFi
+      - 1213:1213/tcp   # Fortinet
+      - 1213:1213/udp   # Fortinet
       - 12201:12201/tcp # GELF
       - 12201:12201/udp # GELF
